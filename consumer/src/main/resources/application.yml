@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  main.allow-bean-definition-overriding: true
+
+dubbo:
+  application:
+    name: consumer
+  registry:
+    address: zookeeper://175.178.29.54:2181
+    protocol:
+      id: dubbo
+      name: dubbo
+      port: 20880

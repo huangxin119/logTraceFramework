@@ -1,0 +1,2 @@
+provider_filter=org.example.framework.dubbo.ProviderFilter
+consumer_filter=org.example.framework.dubbo.ConsumerFilter
